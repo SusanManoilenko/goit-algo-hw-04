@@ -1,4 +1,4 @@
-def get_cats_info(cats):
+def get_cats_info(path):
     cats_info = []  # Створення порожнього списку для зберігання інформації про кішок
     try:
         with open(path, 'r', encoding='utf-8') as file:  
